@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8ED3AFDE2806FDB1008BEB80 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED3AFDD2806FDB1008BEB80 /* AppDelegate.m */; };
+		8ED3AFE12806FDB1008BEB80 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED3AFE02806FDB1008BEB80 /* SceneDelegate.m */; };
+		8ED3AFE42806FDB1008BEB80 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED3AFE32806FDB1008BEB80 /* ViewController.m */; };
+		8ED3AFE72806FDB1008BEB80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ED3AFE52806FDB1008BEB80 /* Main.storyboard */; };
+		8ED3AFE92806FDB2008BEB80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ED3AFE82806FDB2008BEB80 /* Assets.xcassets */; };
+		8ED3AFEC2806FDB2008BEB80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ED3AFEA2806FDB2008BEB80 /* LaunchScreen.storyboard */; };
+		8ED3AFEF2806FDB2008BEB80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED3AFEE2806FDB2008BEB80 /* main.m */; };
+		8ED3AFFC28070F27008BEB80 /* carr.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ED3AFFB28070F27008BEB80 /* carr.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8ED3AFD92806FDB1008BEB80 /* Day6Lab2 GPS Updating Location.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day6Lab2 GPS Updating Location.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ED3AFDC2806FDB1008BEB80 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8ED3AFDD2806FDB1008BEB80 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8ED3AFDF2806FDB1008BEB80 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		8ED3AFE02806FDB1008BEB80 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		8ED3AFE22806FDB1008BEB80 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8ED3AFE32806FDB1008BEB80 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8ED3AFE62806FDB1008BEB80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8ED3AFE82806FDB2008BEB80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8ED3AFEB2806FDB2008BEB80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8ED3AFED2806FDB2008BEB80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8ED3AFEE2806FDB2008BEB80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8ED3AFFB28070F27008BEB80 /* carr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carr.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8ED3AFD62806FDB1008BEB80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8ED3AFD02806FDB1008BEB80 = {
+			isa = PBXGroup;
+			children = (
+				8ED3AFDB2806FDB1008BEB80 /* Day6Lab2 GPS Updating Location */,
+				8ED3AFDA2806FDB1008BEB80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8ED3AFDA2806FDB1008BEB80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8ED3AFD92806FDB1008BEB80 /* Day6Lab2 GPS Updating Location.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8ED3AFDB2806FDB1008BEB80 /* Day6Lab2 GPS Updating Location */ = {
+			isa = PBXGroup;
+			children = (
+				8ED3AFDC2806FDB1008BEB80 /* AppDelegate.h */,
+				8ED3AFDD2806FDB1008BEB80 /* AppDelegate.m */,
+				8ED3AFDF2806FDB1008BEB80 /* SceneDelegate.h */,
+				8ED3AFE02806FDB1008BEB80 /* SceneDelegate.m */,
+				8ED3AFE22806FDB1008BEB80 /* ViewController.h */,
+				8ED3AFE32806FDB1008BEB80 /* ViewController.m */,
+				8ED3AFE52806FDB1008BEB80 /* Main.storyboard */,
+				8ED3AFE82806FDB2008BEB80 /* Assets.xcassets */,
+				8ED3AFEA2806FDB2008BEB80 /* LaunchScreen.storyboard */,
+				8ED3AFED2806FDB2008BEB80 /* Info.plist */,
+				8ED3AFEE2806FDB2008BEB80 /* main.m */,
+				8ED3AFFB28070F27008BEB80 /* carr.png */,
+			);
+			path = "Day6Lab2 GPS Updating Location";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8ED3AFD82806FDB1008BEB80 /* Day6Lab2 GPS Updating Location */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ED3AFF22806FDB2008BEB80 /* Build configuration list for PBXNativeTarget "Day6Lab2 GPS Updating Location" */;
+			buildPhases = (
+				8ED3AFD52806FDB1008BEB80 /* Sources */,
+				8ED3AFD62806FDB1008BEB80 /* Frameworks */,
+				8ED3AFD72806FDB1008BEB80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Day6Lab2 GPS Updating Location";
+			productName = "Day6Lab2 GPS Updating Location";
+			productReference = 8ED3AFD92806FDB1008BEB80 /* Day6Lab2 GPS Updating Location.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8ED3AFD12806FDB1008BEB80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Karam Ibrahim";
+				TargetAttributes = {
+					8ED3AFD82806FDB1008BEB80 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 8ED3AFD42806FDB1008BEB80 /* Build configuration list for PBXProject "Day6Lab2 GPS Updating Location" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8ED3AFD02806FDB1008BEB80;
+			productRefGroup = 8ED3AFDA2806FDB1008BEB80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8ED3AFD82806FDB1008BEB80 /* Day6Lab2 GPS Updating Location */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8ED3AFD72806FDB1008BEB80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ED3AFEC2806FDB2008BEB80 /* LaunchScreen.storyboard in Resources */,
+				8ED3AFE92806FDB2008BEB80 /* Assets.xcassets in Resources */,
+				8ED3AFE72806FDB1008BEB80 /* Main.storyboard in Resources */,
+				8ED3AFFC28070F27008BEB80 /* carr.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8ED3AFD52806FDB1008BEB80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ED3AFE42806FDB1008BEB80 /* ViewController.m in Sources */,
+				8ED3AFDE2806FDB1008BEB80 /* AppDelegate.m in Sources */,
+				8ED3AFEF2806FDB2008BEB80 /* main.m in Sources */,
+				8ED3AFE12806FDB1008BEB80 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8ED3AFE52806FDB1008BEB80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8ED3AFE62806FDB1008BEB80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8ED3AFEA2806FDB2008BEB80 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8ED3AFEB2806FDB2008BEB80 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8ED3AFF02806FDB2008BEB80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8ED3AFF12806FDB2008BEB80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8ED3AFF32806FDB2008BEB80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Day6Lab2 GPS Updating Location/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "iti.Day6Lab2-GPS-Updating-Location";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8ED3AFF42806FDB2008BEB80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Day6Lab2 GPS Updating Location/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "iti.Day6Lab2-GPS-Updating-Location";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8ED3AFD42806FDB1008BEB80 /* Build configuration list for PBXProject "Day6Lab2 GPS Updating Location" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ED3AFF02806FDB2008BEB80 /* Debug */,
+				8ED3AFF12806FDB2008BEB80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ED3AFF22806FDB2008BEB80 /* Build configuration list for PBXNativeTarget "Day6Lab2 GPS Updating Location" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ED3AFF32806FDB2008BEB80 /* Debug */,
+				8ED3AFF42806FDB2008BEB80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8ED3AFD12806FDB1008BEB80 /* Project object */;
+}

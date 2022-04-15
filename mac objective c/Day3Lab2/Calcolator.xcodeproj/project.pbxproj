@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B741B29227FB156C00AAB950 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B741B29127FB156C00AAB950 /* AppDelegate.m */; };
+		B741B29527FB156C00AAB950 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B741B29427FB156C00AAB950 /* ViewController.m */; };
+		B741B29727FB157600AAB950 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B741B29627FB157600AAB950 /* Assets.xcassets */; };
+		B741B29A27FB157600AAB950 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B741B29827FB157600AAB950 /* Main.storyboard */; };
+		B741B29D27FB157600AAB950 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B741B29C27FB157600AAB950 /* main.m */; };
+		B741B2A627FB15B100AAB950 /* Calcolator.m in Sources */ = {isa = PBXBuildFile; fileRef = B741B2A527FB15B100AAB950 /* Calcolator.m */; };
+		B7473CCB27FC5EA40074AB47 /* Calcolator+Squaring.m in Sources */ = {isa = PBXBuildFile; fileRef = B7473CCA27FC5EA40074AB47 /* Calcolator+Squaring.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B741B28D27FB156C00AAB950 /* Calcolator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calcolator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B741B29027FB156C00AAB950 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B741B29127FB156C00AAB950 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B741B29327FB156C00AAB950 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B741B29427FB156C00AAB950 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B741B29627FB157600AAB950 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B741B29927FB157600AAB950 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B741B29B27FB157600AAB950 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B741B29C27FB157600AAB950 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B741B29E27FB157600AAB950 /* Calcolator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Calcolator.entitlements; sourceTree = "<group>"; };
+		B741B2A427FB159B00AAB950 /* Calcolator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Calcolator.h; sourceTree = "<group>"; };
+		B741B2A527FB15B100AAB950 /* Calcolator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Calcolator.m; sourceTree = "<group>"; };
+		B7473CC927FC5DD50074AB47 /* Calcolator+Squaring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Calcolator+Squaring.h"; sourceTree = "<group>"; };
+		B7473CCA27FC5EA40074AB47 /* Calcolator+Squaring.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Calcolator+Squaring.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B741B28A27FB156C00AAB950 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B741B28427FB156C00AAB950 = {
+			isa = PBXGroup;
+			children = (
+				B741B28F27FB156C00AAB950 /* Calcolator */,
+				B741B28E27FB156C00AAB950 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B741B28E27FB156C00AAB950 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B741B28D27FB156C00AAB950 /* Calcolator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B741B28F27FB156C00AAB950 /* Calcolator */ = {
+			isa = PBXGroup;
+			children = (
+				B741B29027FB156C00AAB950 /* AppDelegate.h */,
+				B741B29127FB156C00AAB950 /* AppDelegate.m */,
+				B741B29327FB156C00AAB950 /* ViewController.h */,
+				B741B29427FB156C00AAB950 /* ViewController.m */,
+				B741B29627FB157600AAB950 /* Assets.xcassets */,
+				B741B29827FB157600AAB950 /* Main.storyboard */,
+				B741B29B27FB157600AAB950 /* Info.plist */,
+				B741B29C27FB157600AAB950 /* main.m */,
+				B741B29E27FB157600AAB950 /* Calcolator.entitlements */,
+				B741B2A427FB159B00AAB950 /* Calcolator.h */,
+				B741B2A527FB15B100AAB950 /* Calcolator.m */,
+				B7473CC927FC5DD50074AB47 /* Calcolator+Squaring.h */,
+				B7473CCA27FC5EA40074AB47 /* Calcolator+Squaring.m */,
+			);
+			path = Calcolator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B741B28C27FB156C00AAB950 /* Calcolator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B741B2A127FB157600AAB950 /* Build configuration list for PBXNativeTarget "Calcolator" */;
+			buildPhases = (
+				B741B28927FB156C00AAB950 /* Sources */,
+				B741B28A27FB156C00AAB950 /* Frameworks */,
+				B741B28B27FB156C00AAB950 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Calcolator;
+			productName = Calcolator;
+			productReference = B741B28D27FB156C00AAB950 /* Calcolator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B741B28527FB156C00AAB950 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Nayra Khaled";
+				TargetAttributes = {
+					B741B28C27FB156C00AAB950 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = B741B28827FB156C00AAB950 /* Build configuration list for PBXProject "Calcolator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B741B28427FB156C00AAB950;
+			productRefGroup = B741B28E27FB156C00AAB950 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B741B28C27FB156C00AAB950 /* Calcolator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B741B28B27FB156C00AAB950 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B741B29727FB157600AAB950 /* Assets.xcassets in Resources */,
+				B741B29A27FB157600AAB950 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B741B28927FB156C00AAB950 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B741B29527FB156C00AAB950 /* ViewController.m in Sources */,
+				B741B29D27FB157600AAB950 /* main.m in Sources */,
+				B741B29227FB156C00AAB950 /* AppDelegate.m in Sources */,
+				B741B2A627FB15B100AAB950 /* Calcolator.m in Sources */,
+				B7473CCB27FC5EA40074AB47 /* Calcolator+Squaring.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B741B29827FB157600AAB950 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B741B29927FB157600AAB950 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B741B29F27FB157600AAB950 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B741B2A027FB157600AAB950 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B741B2A227FB157600AAB950 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Calcolator/Calcolator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Calcolator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nayra.Calcolator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B741B2A327FB157600AAB950 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Calcolator/Calcolator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Calcolator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nayra.Calcolator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B741B28827FB156C00AAB950 /* Build configuration list for PBXProject "Calcolator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B741B29F27FB157600AAB950 /* Debug */,
+				B741B2A027FB157600AAB950 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B741B2A127FB157600AAB950 /* Build configuration list for PBXNativeTarget "Calcolator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B741B2A227FB157600AAB950 /* Debug */,
+				B741B2A327FB157600AAB950 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B741B28527FB156C00AAB950 /* Project object */;
+}

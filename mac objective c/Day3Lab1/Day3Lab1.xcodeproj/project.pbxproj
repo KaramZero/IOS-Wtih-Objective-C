@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8EF1522427FC565E0027A25F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF1522327FC565E0027A25F /* AppDelegate.m */; };
+		8EF1522627FC565F0027A25F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EF1522527FC565F0027A25F /* Assets.xcassets */; };
+		8EF1522927FC565F0027A25F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EF1522727FC565F0027A25F /* MainMenu.xib */; };
+		8EF1522C27FC565F0027A25F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF1522B27FC565F0027A25F /* main.m */; };
+		8EF1523727FC565F0027A25F /* Day3Lab1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF1523627FC565F0027A25F /* Day3Lab1Tests.m */; };
+		8EF1524227FC565F0027A25F /* Day3Lab1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF1524127FC565F0027A25F /* Day3Lab1UITests.m */; };
+		8EF1525127FC57960027A25F /* ClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF1525027FC57960027A25F /* ClassA.m */; };
+		8EF1525427FC58160027A25F /* ClassB.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF1525327FC58160027A25F /* ClassB.m */; };
+		8EF1525727FC58B20027A25F /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF1525627FC58B20027A25F /* MyClass.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8EF1523327FC565F0027A25F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EF1521727FC565E0027A25F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EF1521E27FC565E0027A25F;
+			remoteInfo = Day3Lab1;
+		};
+		8EF1523E27FC565F0027A25F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EF1521727FC565E0027A25F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EF1521E27FC565E0027A25F;
+			remoteInfo = Day3Lab1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8EF1521F27FC565E0027A25F /* Day3Lab1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Day3Lab1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EF1522227FC565E0027A25F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8EF1522327FC565E0027A25F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8EF1522527FC565F0027A25F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EF1522827FC565F0027A25F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		8EF1522A27FC565F0027A25F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EF1522B27FC565F0027A25F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8EF1522D27FC565F0027A25F /* Day3Lab1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Day3Lab1.entitlements; sourceTree = "<group>"; };
+		8EF1523227FC565F0027A25F /* Day3Lab1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Day3Lab1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EF1523627FC565F0027A25F /* Day3Lab1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day3Lab1Tests.m; sourceTree = "<group>"; };
+		8EF1523827FC565F0027A25F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EF1523D27FC565F0027A25F /* Day3Lab1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Day3Lab1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EF1524127FC565F0027A25F /* Day3Lab1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day3Lab1UITests.m; sourceTree = "<group>"; };
+		8EF1524327FC565F0027A25F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EF1524F27FC57410027A25F /* ClassA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassA.h; sourceTree = "<group>"; };
+		8EF1525027FC57960027A25F /* ClassA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassA.m; sourceTree = "<group>"; };
+		8EF1525227FC57DB0027A25F /* ClassB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassB.h; sourceTree = "<group>"; };
+		8EF1525327FC58160027A25F /* ClassB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassB.m; sourceTree = "<group>"; };
+		8EF1525527FC58700027A25F /* MyClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
+		8EF1525627FC58B20027A25F /* MyClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EF1521C27FC565E0027A25F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EF1522F27FC565F0027A25F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EF1523A27FC565F0027A25F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EF1521627FC565E0027A25F = {
+			isa = PBXGroup;
+			children = (
+				8EF1522127FC565E0027A25F /* Day3Lab1 */,
+				8EF1523527FC565F0027A25F /* Day3Lab1Tests */,
+				8EF1524027FC565F0027A25F /* Day3Lab1UITests */,
+				8EF1522027FC565E0027A25F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EF1522027FC565E0027A25F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EF1521F27FC565E0027A25F /* Day3Lab1.app */,
+				8EF1523227FC565F0027A25F /* Day3Lab1Tests.xctest */,
+				8EF1523D27FC565F0027A25F /* Day3Lab1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EF1522127FC565E0027A25F /* Day3Lab1 */ = {
+			isa = PBXGroup;
+			children = (
+				8EF1522227FC565E0027A25F /* AppDelegate.h */,
+				8EF1522327FC565E0027A25F /* AppDelegate.m */,
+				8EF1522527FC565F0027A25F /* Assets.xcassets */,
+				8EF1522727FC565F0027A25F /* MainMenu.xib */,
+				8EF1522A27FC565F0027A25F /* Info.plist */,
+				8EF1522B27FC565F0027A25F /* main.m */,
+				8EF1522D27FC565F0027A25F /* Day3Lab1.entitlements */,
+				8EF1524F27FC57410027A25F /* ClassA.h */,
+				8EF1525027FC57960027A25F /* ClassA.m */,
+				8EF1525227FC57DB0027A25F /* ClassB.h */,
+				8EF1525327FC58160027A25F /* ClassB.m */,
+				8EF1525527FC58700027A25F /* MyClass.h */,
+				8EF1525627FC58B20027A25F /* MyClass.m */,
+			);
+			path = Day3Lab1;
+			sourceTree = "<group>";
+		};
+		8EF1523527FC565F0027A25F /* Day3Lab1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8EF1523627FC565F0027A25F /* Day3Lab1Tests.m */,
+				8EF1523827FC565F0027A25F /* Info.plist */,
+			);
+			path = Day3Lab1Tests;
+			sourceTree = "<group>";
+		};
+		8EF1524027FC565F0027A25F /* Day3Lab1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				8EF1524127FC565F0027A25F /* Day3Lab1UITests.m */,
+				8EF1524327FC565F0027A25F /* Info.plist */,
+			);
+			path = Day3Lab1UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EF1521E27FC565E0027A25F /* Day3Lab1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EF1524627FC565F0027A25F /* Build configuration list for PBXNativeTarget "Day3Lab1" */;
+			buildPhases = (
+				8EF1521B27FC565E0027A25F /* Sources */,
+				8EF1521C27FC565E0027A25F /* Frameworks */,
+				8EF1521D27FC565E0027A25F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Day3Lab1;
+			productName = Day3Lab1;
+			productReference = 8EF1521F27FC565E0027A25F /* Day3Lab1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8EF1523127FC565F0027A25F /* Day3Lab1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EF1524927FC565F0027A25F /* Build configuration list for PBXNativeTarget "Day3Lab1Tests" */;
+			buildPhases = (
+				8EF1522E27FC565F0027A25F /* Sources */,
+				8EF1522F27FC565F0027A25F /* Frameworks */,
+				8EF1523027FC565F0027A25F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EF1523427FC565F0027A25F /* PBXTargetDependency */,
+			);
+			name = Day3Lab1Tests;
+			productName = Day3Lab1Tests;
+			productReference = 8EF1523227FC565F0027A25F /* Day3Lab1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8EF1523C27FC565F0027A25F /* Day3Lab1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EF1524C27FC565F0027A25F /* Build configuration list for PBXNativeTarget "Day3Lab1UITests" */;
+			buildPhases = (
+				8EF1523927FC565F0027A25F /* Sources */,
+				8EF1523A27FC565F0027A25F /* Frameworks */,
+				8EF1523B27FC565F0027A25F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EF1523F27FC565F0027A25F /* PBXTargetDependency */,
+			);
+			name = Day3Lab1UITests;
+			productName = Day3Lab1UITests;
+			productReference = 8EF1523D27FC565F0027A25F /* Day3Lab1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EF1521727FC565E0027A25F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Karam Ibrahim";
+				TargetAttributes = {
+					8EF1521E27FC565E0027A25F = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					8EF1523127FC565F0027A25F = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 8EF1521E27FC565E0027A25F;
+					};
+					8EF1523C27FC565F0027A25F = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 8EF1521E27FC565E0027A25F;
+					};
+				};
+			};
+			buildConfigurationList = 8EF1521A27FC565E0027A25F /* Build configuration list for PBXProject "Day3Lab1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EF1521627FC565E0027A25F;
+			productRefGroup = 8EF1522027FC565E0027A25F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EF1521E27FC565E0027A25F /* Day3Lab1 */,
+				8EF1523127FC565F0027A25F /* Day3Lab1Tests */,
+				8EF1523C27FC565F0027A25F /* Day3Lab1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EF1521D27FC565E0027A25F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EF1522627FC565F0027A25F /* Assets.xcassets in Resources */,
+				8EF1522927FC565F0027A25F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EF1523027FC565F0027A25F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EF1523B27FC565F0027A25F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EF1521B27FC565E0027A25F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EF1522C27FC565F0027A25F /* main.m in Sources */,
+				8EF1525127FC57960027A25F /* ClassA.m in Sources */,
+				8EF1525727FC58B20027A25F /* MyClass.m in Sources */,
+				8EF1522427FC565E0027A25F /* AppDelegate.m in Sources */,
+				8EF1525427FC58160027A25F /* ClassB.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EF1522E27FC565F0027A25F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EF1523727FC565F0027A25F /* Day3Lab1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EF1523927FC565F0027A25F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EF1524227FC565F0027A25F /* Day3Lab1UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8EF1523427FC565F0027A25F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EF1521E27FC565E0027A25F /* Day3Lab1 */;
+			targetProxy = 8EF1523327FC565F0027A25F /* PBXContainerItemProxy */;
+		};
+		8EF1523F27FC565F0027A25F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EF1521E27FC565E0027A25F /* Day3Lab1 */;
+			targetProxy = 8EF1523E27FC565F0027A25F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8EF1522727FC565F0027A25F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EF1522827FC565F0027A25F /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8EF1524427FC565F0027A25F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8EF1524527FC565F0027A25F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8EF1524727FC565F0027A25F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Day3Lab1/Day3Lab1.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Day3Lab1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iti.Day3Lab1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8EF1524827FC565F0027A25F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Day3Lab1/Day3Lab1.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Day3Lab1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iti.Day3Lab1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8EF1524A27FC565F0027A25F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Day3Lab1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = iti.Day3Lab1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Day3Lab1.app/Contents/MacOS/Day3Lab1";
+			};
+			name = Debug;
+		};
+		8EF1524B27FC565F0027A25F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Day3Lab1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = iti.Day3Lab1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Day3Lab1.app/Contents/MacOS/Day3Lab1";
+			};
+			name = Release;
+		};
+		8EF1524D27FC565F0027A25F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Day3Lab1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iti.Day3Lab1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Day3Lab1;
+			};
+			name = Debug;
+		};
+		8EF1524E27FC565F0027A25F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Day3Lab1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iti.Day3Lab1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Day3Lab1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EF1521A27FC565E0027A25F /* Build configuration list for PBXProject "Day3Lab1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EF1524427FC565F0027A25F /* Debug */,
+				8EF1524527FC565F0027A25F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EF1524627FC565F0027A25F /* Build configuration list for PBXNativeTarget "Day3Lab1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EF1524727FC565F0027A25F /* Debug */,
+				8EF1524827FC565F0027A25F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EF1524927FC565F0027A25F /* Build configuration list for PBXNativeTarget "Day3Lab1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EF1524A27FC565F0027A25F /* Debug */,
+				8EF1524B27FC565F0027A25F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EF1524C27FC565F0027A25F /* Build configuration list for PBXNativeTarget "Day3Lab1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EF1524D27FC565F0027A25F /* Debug */,
+				8EF1524E27FC565F0027A25F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EF1521727FC565E0027A25F /* Project object */;
+}
